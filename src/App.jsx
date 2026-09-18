@@ -11,7 +11,7 @@ import { Footer } from './components/Footer';
 
 function PortfolioContent() {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+    <div className="min-h-screen flex flex-col overflow-y-auto bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
       <Navbar />
       <main className="flex-grow">
         <Hero />

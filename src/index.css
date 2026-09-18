@@ -73,3 +73,10 @@
 .dark .radial-gradient-glow {
   background: radial-gradient(circle at 50% 20%, rgba(139, 92, 246, 0.18), transparent 70%);
 }
+html,
+body,
+#root {
+  min-height: 100%;
+  height: auto;
+  overflow-y: auto;
+}
